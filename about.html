@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- or -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <title>Limit Tech</title>
+
+</head>
+
+<body>
+    <section id="header">
+        <a href="#"><img src="img/logo/teste5.jpg" class="" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a class="active" href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><button class="btnLogin-popup">Login</button></li>
+                <li id="lg-bag"><a href="cart.html"><i class='bx bx-cart'></a></i></li>
+                <a href="#" id="close"><i class='bx bx-x'></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a><i class='bx bx-cart'></a></i>
+            <i id="bar" class="bx bx-menu"></i>
+        </div>
+    </section>
+
+
+    <section id="page-header" class="about-header">
+
+        <h2>#SobreNós</h2>
+
+        <p>Saiba quem nós somos!</p>
+
+
+        <div class="wrapper">
+            <span class="icon-close"><i class='bx bx-x'></i></span>
+            <div class="form-box login">
+                <h2>Login</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-envelope'></i></span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-lock-alt'></i></span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">
+                            Remember me</label>
+                        <a href="#">Forgot Password?</a>
+                    </div>
+                    <button type="submit" class="btn">Login</button>
+                    <div class="login-register">
+                        <p>Don't have an account?
+                            <a href="#" class="register-link">Register</a>
+                        </p>
+                    </div>
+                </form>
+            </div>
+
+            <div class="form-box register">
+                <h2>Registration</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-user'></i></i></span>
+                        <input type="text" required>
+                        <label>Username</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-envelope'></i></span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-lock-alt'></i></span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">
+                            I agree to the terms & conditions</label>
+
+                    </div>
+                    <button type="submit" class="btn">Register</button>
+                    <div class="login-register">
+                        <p>Already have an account?
+                            <a href="#" class="login-link">Login</a>
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!--    <section id="about-head" class="">
+        <img src="" alt="">
+        <div>
+            <h2>Quem Nós Somos?</h2>
+            <p>A LimitTech é uma empresa especializada na venda de celulares de alta qualidade e
+                tecnologia. Aqui você encontrará uma plataforma intuitiva e eficiente para a compra de celulares, a
+                partir de adicionar o celular ao carrinho até a entrega ao cliente no final.</p>
+                
+             <p>Ao acessar o sistema LimitTech, você terá uma visão completa do seu estoque de celulares, dos
+                fornecedores, dos produtos, incluindo marcas, modelos, preços, descrições e sua quantidade
+                estocada. O sistema possui uma área de cadastro para cada um de seus novos clientes, onde eles
+                podem cadastrar seu nome, endereço, telefone, e-mail e senha. </p>
+                
+             <p> O LimitTech tem uma função de pedidos que consiste em armazenar os pedidos do cliente. Ele é
+                muito bem organizado e guarda a lista de produtos completa do cliente e sua respectiva quantidade,
+                o valor total da compra, a data do pedido e o status do pedido (em processamento, aprovado,
+                enviado, entregue, cancelado).</p>
+                
+                <p>Cada produto comprado pode ser avaliado pelo cliente com uma nota (de 0 a 5) e um comentário, a
+                data da avaliação ficará aparente no sistema. O sistema LimitTech tem um sistema de vendas de alta
+                qualidade no qual há uma lista de celulares vendidos, o valor total da venda, forma de pagamento, a
+                data da venda e o nome do cliente que realizou a compra.</p>
+                
+                <p>Todo produto vendido pela LimitTech possui a sua própria garantia estendida, o sistema permite
+                gerenciar planos de garantia estendida, com informações sobre cobertura, prazo de validade, custos
+                e regras. O LimitTech também oferece promoções aos seus clientes. Essas promoções possuem
+                título, descrição e desconto em porcentagem. O sistema gerencia entregas por todo o país, essas
+                entregas possuem um frete com um certo valor, o endereço do cliente, um tipo de entrega (normal,
+                expressa, etc) e um prazo estimado para chegada do pedido. Os clientes que acessam a loja do
+                sistema podem ver as perguntas frequentes feitas por outros clientes, onde todas são respondidas
+                por uma equipe altamente qualificada. </p> 
+                
+                <p>  O sistema LimitTech foi desenvolvido para ser simples e fácil de usar; permitindo que você
+                gerencie suas vendas com rapidez e eficiência. Nós da LimitTech acreditamos em fornecer soluções
+                de gestão de vendas de alta qualidade e estamos sempre trabalhando para melhorar nossa plataforma
+                para atender às necessidades de nossos clientes. Junte-se a nós no mundo do LimitTech e comece a
+                gerenciar suas vendas com mais eficiência hoje mesmo!
+                </p>   
+
+        </div>
+    </section> -->
+
+    <section id="about-app" class="section-p1">
+        <h1>Veja o Nosso Mais Novo <a href="sproduct.html">Celular</a></h1>
+        <div class="video">
+            <video autoplay muted  loop src="img/about/video.mp4"></video>
+        </div>
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Se Cadastre para Novas Notícias </h4>
+            <p>Receba atualizações sobre os nossos novos celulares e <span>ofertas especiais.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Seu endereço de email">
+            <button class="normal">Cadastre se</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="" alt="">
+            <h4>Contato</h4>
+            <p><strong>Endereço:</strong> 562 Wellington Road, Streat 32, San Francisco</p>
+            <p><strong>Telefone:</strong> +01 2222 365/(+91) 2345 6789</p>
+            <p><strong>Horários:</strong> 10:00 - 18:00, Seg - Sáb</p>
+            <div class="follow">
+                <h4>Siga-nos</h4>
+                <div class="icon">
+                    <i class='bx bxl-facebook'></i>
+                    <i class='bx bxl-twitter'></i>
+                    <i class='bx bxl-instagram'></i>
+                    <i class='bx bxl-youtube'></i>
+                    <i class='bx bxl-twitch'></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="">My Wishlists</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col pay">
+            <h4>Formas de Pagamento</h4>
+            <div class="row">
+                <img src="img/pay/pay.png" alt="">
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>© 2023, Limit Tech - HTML CSS Ecommerce Template</p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
